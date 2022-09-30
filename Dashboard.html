@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="Dashboard.css">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.jpg">
+</head>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    
+    <a class="navbar-brand" href="#">
+        <img src="https://www.designmantic.com/images/industry/education/dm-education-02.jpg" alt="Logo" style="width:200px;">
+    </a>
+    
+  
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="">Lecturers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Log Out</a>
+        </li>
+      </ul>
+       
+    </div>
+  </nav>
+<body>
+
+  <div class="Dashboard">
+    <p><h1>Welcome to your Student Dashboard....</h1></p>
+  </div>
+  <br>
+  <br>
+
+
+  <div class="row">
+    <div class="column">
+      <div class="card" style="width: 18rem;">
+        
+        <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+        
+        <div class="card-body">
+          <p class="card-text"><b>Python programming language is one of dynamic and object-oriented programming languages used for the development</b></p>
+          <div class="card-footer">
+            <button onclick="document.location='https://www.youtube.com/watch?v=kqtD5dpn9C8'" 
+            type="button" class="btn btn-sm btn-block" onclick="location.href = '';"><b>START COURSE</b> </button>
+         </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column"> 
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeLnxXQFrvvDLfyD9HsWeTkx-0FzL7QcECvg&usqp=CAU" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Web design determines the look and feel of a website, while web development determines how it functions.</p>
+          <div class="card-footer">
+            <button onclick="document.location='https://www.youtube.com/watch?v=B-ytMSuwbf8'" 
+            type="button" class="btn btn-sm btn-block" ><b>START COURSE</b></button>
+         </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="column">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYH7gjRj1ScRp3E8ytYwmUv3OUFGkNG0_jIA&usqp=CAU" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Dart is a client-optimized language for developing fast apps on any platform.</p>
+          <div class="card-footer">
+            <button onclick="document.location='https://www.youtube.com/watch?v=Ej_Pcr4uC2Q'"
+            type="button" class="btn btn-sm btn-block"><b>START COURSE</b>> </button>
+         </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="column">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEUAAAD///87Ozv4+PgzMzN0dHRXV1chISEXFxf8/PwZGRn19fXx8fGrq6vS0tIoKChHR0fn5+ctLS2xsbHExMSBgYFNTU2Tk5NwcHA+Pj6enp5mZmZ9fX1SUlIKCgq8vLzg4OCKiorZ2dmXl5deXl7Nzc22aD37AAAEY0lEQVR4nO3d6ZqqIAAGYLC01NQWWybbp7n/WzzZLMmiCdiReL73r8rwjaLAoEMopWESjIl7xkES3tIRStOo77q8TJSWCdO+q/FSKSWhu2ewFIUk6bsOL5aQoO8qvFhAXLyLVrmeDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXBN5q+vGL4Jpdui7Kt2bF0k6o38Gp/y8dyhmtj4NqGhy3PRds24UqSTd77lM3v8jG/6sPt9dPuy7ikaK05N8pUXWdzW1RXmLfOW1uuu7ppoK2e1F7ustm2PSOt9N/IbfhPlSCXhzriln5C93H1o18PylP9cP8MShzS2mTcRj+fUtelHPOLw/pML8Rdf/eKIckFJJiiz+3ajaOQh+DwynnSTiPXsISi0ay/GUKjB/3OUmr+gdXnQC0pNQzrqyNVeqwbFy5LabUFULeYJ0Wwyj8WHkXZdH2YMkFH7ZTGNWqQHTSibdJfuxlMXLuYb08Sk01QGfcMTsovI8WTEFmwbiebJ8suZ+5lrrhd9hyJxpX6EOAVPwSD+MlNgI07rb2Y7Zbc1vtjSheI0KNX/IKi1tJmy1M2EUU1Z8bdz/r28Xi48DOxNuuYCzZ0Oj63drzCX7WZnwwJ3CQYuO4Wq93UmHwVYm/ORO4cqkMCsTcg85lVqJbEzIPmkVe1oCGxMeaZdF25iQvc+YdnktTMhepBPTb51amPDMFGz8weG5dsI9U5EOh/ns3IzG4HrkVQVhtbjzsLqN7yBk1Y3DDVORldd0pBJmPKc8LDtsVaYG4uOjl5AtVGZNJvp/SoiYnyOZlGjkKU99FD9HXvm+8NOMepN3hEyZYuqmB+toTF5995iG6gfGmjcftn0rNkOlCeQfp/uROrNCR72EV6YQxYM1qknp/nZgpnNgmxGBRGGQ8EMrYdkSzlpHNo9a6/gGCYuamjQrH7n8cKYdvTGB++fQ/XbI3ksVB79vcS9lrzQXn4dj5/s07vdLCbsyQWMWyvqxxZkp2MXxITvGj01LtnCMz83TmJ5EGxNyfxs1XOxkY0J2hOjifCm/RMFsOZeVCdeUZbTUycqE3L2Ghi3WVl6TxXYv22BnQn60NnnWiS++uyMnSf/AzoRjvo84KBr3fwwpxP3sTMitPih91u88r/RkB8KzxdKERFzWndb1UNlVDcJgxNaEcyFhy/U0wmIMWxNKrlMqromabsUBD9+PtXVNVKt1baFsB+F3beu6NllTbEOsibVrEzXXl0oyWLu+lBx01ghL7kb2rhF2f503UV+rv6wpx9a1+kT1fQtp19t2zr8zc3sqtX3vyWxxWK+ubW44See9qv/K9fcPS03vkMZbN/5HtOvvAd9x73LHl/z8ls+HJ8r38f3dxs338QEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIy48Y2AemPyhv/XVklAjD8PbLmEhG/6LZmWopDQtO9KvFRKCaWpu2cxSmmZkIZJ4OIddRwk5ZfF/gG0vzih0wUw6gAAAABJRU5ErkJggg==" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">  C++ is used in developing browsers, operating systems, and applications, as well as in-game programming, software engineering, data structures</p>
+          <div class="card-footer">
+            <button onclick="document.location='https://www.youtube.com/watch?v=ZzaPdXTrSb8'"
+            type="button" class="btn btn-sm btn-block"><b>START COURSE</b></button> </button>
+         </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="column">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://image.shutterstock.com/image-photo/moscow-russia-1-june-2020-260nw-1771308545.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">A general-purpose scripting language that can be used to develop dynamic and interactive websites.</p>
+          <div class="card-footer">
+            <button onclick="document.location='https://www.youtube.com/watch?v=OK_JCtrrv-c&vl=en'"
+            type="button" class="btn btn-sm btn-block"><b>START COURSE</b></button>
+         </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="column">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrhQWuHqMEJQB7C-KAOJ0Awscwk9DiVxS0lg&usqp=CAU" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Developers use Java to construct applications in laptops, data centres, game consoles, scientific supercomputers, cell phones, and other devices.</p>
+          <div class="card-footer">
+            <button onclick="document.location='https://www.youtube.com/watch?v=eIrMbAQSU34'"
+            type="button" class="btn  btn-sm btn-block"><b>START COURSE</b> </button>
+         </div>
+        </div>
+      </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6gTnjSSaadPQ8-Nk6lg0-mgmkJsNf_N2CkQ&usqp=CAU" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">React is a JavaScript library developed by Facebook which, among other things, was used to build Instagram.com. Its aim is to allow developers to easily create fast user interfaces for websites and applications alike</p>
+        <div class="card-footer">
+          <button onclick="document.location='https://www.youtube.com/watch?v=Ke90Tje7VS0'"
+          type="button" class="btn  btn-sm btn-block"><b>START COURSE</b> </button>
+       </div>
+      </div>
+    </div>
+</div>
+
+<div class="column">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7eHI7gMwn0z1NfEDia-gpJV8WzpJnr2hY5w&usqp=CAU" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">C is a powerful general-purpose programming language. It can be used to develop software like operating systems, databases, compilers, and so on.</p>
+      <div class="card-footer">
+        <button onclick="document.location='https://www.youtube.com/watch?v=KJgsSFOSQv0'"
+        type="button" class="btn btn-sm btn-block"><b>START COURSE</b> </button>
+     </div>
+    </div>
+  </div>
+</div>
+  
+
+
+  
+      
+
+
+
+      
+      
+      
+
+      
+    
+    
+</body>
+</html>

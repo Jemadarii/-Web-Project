@@ -1,0 +1,114 @@
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #101010;
+    padding: 30px;
+    width: 100%;
+}
+.login-form h2 {
+    margin: 20px 0 35px;
+}
+.form-control, .btn {
+    min-height: 38px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+.clearfix{
+    margin-bottom: 30px;
+    color: white;
+}
+.text-center{
+    color: white;
+    font-family: Montserrat;
+    font-weight: 200;
+}
+
+.btn{
+    border-radius: 0;
+    padding: 10px;
+}
+
+.form-control{
+    border: 0;
+    border-radius: 0;
+    background: #191919;
+    color: white;
+    padding: 25px 20px;
+}
+
+.pull-right{
+    color: #fff;
+}
+
+.btn-primary{
+    font-family: Montserrat;
+    font-weight: 200;
+    color:#fff;
+    background-color:#5852eb;
+    border: 0;
+    padding: 12px;
+}
+
+.btn-primary:hover{
+    color:#fff;
+    background-color:#3c3986;
+    border: 0;
+}
+
+.btn-primary:focus,.btn-primary.focus{
+    outline: none;
+    box-shadow:none !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,.btn-primary:not(:disabled):not(.disabled).active,.show>.btn-primary.dropdown-toggle{color:#fff;
+    background-color:#5852eb;
+}
+
+.btn-outline-primary{
+    color:#5852eb;
+    background-color:transparent;
+    background-image:none;
+    border-color:#5852eb
+}
+
+.btn-outline-primary:hover{
+    color:#5852eb;
+    background-color:#5852eb;
+    border-color:#5852eb;
+}
+
+.btn:focus {
+    outline: none !important;
+}
+
+
+input[type="text"], textarea {
+    outline: none;
+    box-shadow:none !important;
+}
+
+input[type="password"], textarea {
+    outline: none;
+    box-shadow:none !important;
+}
+
+input[type="email"], textarea {
+    outline: none;
+    box-shadow:none !important;
+}
+
+.g-recaptcha {
+    margin-bottom: 10px;
+    transform:scale(0.93);
+    transform-origin:0 0;
+    text-align: center;
+}
